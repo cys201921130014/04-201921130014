@@ -1,0 +1,55 @@
+/*此网页设计主要是介绍该电影的精彩片段部分，其由剧图和剧图描述两部分组成。在确定介绍剧图工作后，开始在草稿纸进行布局设置
+后来删减选择了六幅经典剧图进行描述。确定布局后，于是构思了文案，最后配上了首页的主色完成了设计。*/
+#all{
+    width:100%;
+    height:930px;
+    background-color:cadetblue;
+}
+header{
+    height:70px;
+    border-bottom:solid 2px grey;
+	margin-left:150px;
+}
+header h1{
+	padding-top:15px;
+}
+.tablecontainer{
+    display:table;
+    width:1220px;
+    height:400px;
+    margin-left: 150px;
+	margin-bottom:20px;
+}
+.tablerow{
+    display:table-row;
+    height:400px;
+}
+.a{
+    display:table-cell;
+    width:400px;
+    margin-bottom: 10px;
+}
+.b{
+    width:400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display:table-cell;
+}
+.photo{
+    height:200px;
+    width:400px;
+    padding-top: 20px;
+}
+.photo img{
+    height:190px;
+    width:350px;
+}
+.describe{
+    height:190px;
+    width:350px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-indent: 2em;
+    letter-spacing: 1px;/*设置字体间距，使字体看起来更清晰*/
+	font-style:italic;
+}

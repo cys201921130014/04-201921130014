@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>影迷注册登记</title>
+        <link href="影迷.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>影迷专访</h1><!--header部分为一级标题，标题内容为影迷专访-->
+        </header>
+	<div id="all"><!--div all包含所有内容，冻结布局-->
+        <div id="a">
+            <div id="e">
+                <p>尊敬影迷您好:</p>
+                <p>为了给您提供更加完善的服务，更多的电影信息，我们希望收集并了解您在页面的使用情况。对您的配合和支持表示衷心的感谢！</p>
+            </div>
+            <div id="f">
+            <div id="f1">
+                <p>影迷满意度调查</p>
+            </div>
+            <form action=""><!--表单-->
+            <table class="table1"><!--表格呈现表单内容-->
+                <tr class="tr1">
+                <td><span class="f2">*</span><!--使用span元素将*与以下问题装起来-->
+                    <span class="f3">请问您对影迷登记页整体满意度如何?</span>
+                </td>
+                </tr>
+                <tr class="tr2">
+                <td>
+                    <ul><!--无序列表，单选按钮。name的值需要一样。-->
+                       <li><input  name="my" type="radio" value="非常满意"><lable>非常满意</lable></li> 
+                       <li><input  name="my" type="radio" value="满意"><lable>满意</lable></li> 
+                       <li><input  name="my" type="radio" value="一般"><lable>一般</lable></li> 
+                       <li><input  name="my" type="radio" value="不满意"><lable>不满意</lable></li> 
+                       <li><input  name="my" type="radio" value="非常不满意"><lable>非常不满意</lable></li> 
+                    </ul>
+                </td>
+                </tr>
+            </table>
+            <table class="table2">
+             <tr class="tr3">
+                 <td><p>您对影迷登记页有什么想法，请大声说出来吧！我们将会根据您的建议持续更新，不断进步完善哟！</p></td>
+             </tr>
+             <tr class="tr2">
+             <td>
+                 <p>
+                 <textarea class="textarea" name="" id="" alt="答案" rows="5" cols="40"></textarea>
+                 </p>
+             </td>
+             </tr>
+            </table>
+            <div id="g">
+                <p>影迷信息表</p>
+            </div>
+            <div id="h">
+            <table class="table3">
+                <tr class="tr4">
+                    <td><p>如果您有更多的电影神剧推荐，请填写如下信息，方便我们与您交流噢，谢谢！（信息仅作为内部资料绝不外泄）</p>
+                    <p>如果您对肖申克的救赎电影体验有更独特的想法与理解，也欢迎加入我们的<sapn class="color">肖申克的救赎电影交流QQ群（389453258）</sapn>
+                    ，输入验证码<sapn class="color">movie fan</sapn>即可成为群内一员！我们也会在群内发布访谈邀请的信息哦！</p>
+                    </td>
+                </tr>
+                <tr class="tr5">
+                   <td class="td1">
+                       <ul>
+                           <li id="li1"><lable class="name">姓名</lable>
+                           <span class="span1"><input type="text" name="uname"></span>
+                           </li>
+                        <li><lable class="number">手机号</lable>
+                        <span class="span2"><input type="text" name="pnumber"></span>
+                        </li>
+                       </ul>
+                   </td>
+                </tr>
+            </table>
+            <table class="table4">
+                <tr class="tr6">
+                    <td><input type="hidden"  name="move"value="movenext" id="movenext">
+                   <button class="button1" type="submit" value="提交" name="move2" id="movesubmitbtn" role="button">
+                       <span class="button2">提交</span>
+                   </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+            </div>
+            </div>
+        </div>
+	</div>
+    </body>
+</html>

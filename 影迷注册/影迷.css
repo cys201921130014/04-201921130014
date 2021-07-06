@@ -1,0 +1,224 @@
+/*此网页设计思路源于课程平时作业-京东满意度调查，所以直接修改内容而成。该网页为临时性萌生想法新增的网页*/
+header{
+    height:50px;
+    border-bottom:solid 2px grey;
+    width:1100px;
+}
+#a{
+    height:1000px;
+    width:1000px;
+}
+#e{
+   margin-top: 30px;
+   height:70px;
+   width:600px;
+   font-size: 14px;
+   line-height: 6x;
+   margin-left:100px;
+}
+#f{
+    height:400px;
+    width:600px;
+}
+#f1{
+    font-size: 16px;
+    font-family: ����;
+    font-weight: bold;
+    text-align: left;
+    height:10px;
+    margin-left:100px;
+    margin-bottom: 20px;
+}
+.table1{
+    border:solid 1px rgb(204, 232, 255);
+    border-collapse: collapse;
+    height:140px;
+    margin-left:100px;
+    width:1000px;
+}
+.tr1{
+    height:10px;
+    background-color: rgb(238, 246, 255);
+}
+.f2{
+    color:red;
+    font-size: 5px;
+    font-family: verdana;
+    text-align: center;
+    margin-left: 5px;
+}
+.f3{
+    color:black;
+    text-align: center;
+    margin-left: 0px;
+    font-weight: 400;
+    font-size: 11px;
+    height:10px;
+    line-height: 8px;
+}
+.tr2{
+    height:130px;
+}
+ul{
+    list-style-type: none;
+}
+.table2{
+    border:solid 1px rgb(204, 232, 255);
+    border-collapse: collapse;
+    height:140px;
+    margin-left:100px;
+    width:1000px;
+    margin-top: 10px;
+}
+.tr3{
+    height:10px;
+    background-color: rgb(238, 246, 255);
+}
+.tr3 p{
+    font-size:10px;
+    margin-left: 10px;
+}
+.textarea{
+      border:solid 1px black;
+      margin-left: 50px;
+}
+#g{
+   height:20px;
+   width:100px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   margin-left:100px;
+}
+#g p{
+    font-size: 16px;
+    font-family: ����;
+    font-weight: bold;
+    text-align: left;
+}
+#h{
+    height:145px;
+    width:1000px;
+    margin-left:100px;
+}
+.table3{
+    height:140px;
+    width:1000px;
+    border:solid 2px rgb(238, 246, 255);
+}
+.tr4{
+    height:40px;
+    background-color:rgb(238, 246, 255) ;
+    width:1000px;
+}
+.tr4 p{
+    font-size: 8px;
+    margin-left: 5px;
+}
+.tr5{
+    height:100px;
+    font-size: 8px;
+}
+.color{
+    color:red;
+}
+.td1{
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left:40px;
+    padding-top: 10px;
+    text-align: left;
+    vertical-align: middle;
+	height:70px;
+}
+.td1 ul{
+	height:70px;
+}
+#li1{
+    margin-bottom: 5px;
+}
+.span1{
+    padding-left: 22px;
+    margin-bottom: 5px;
+}
+.span2{
+    padding-left: 10px;
+	margin-bottom: 5px;
+}
+.name{
+    text-align: left;
+    vertical-align: middle;
+}
+.number{
+    text-align: left;
+    vertical-align: middle;
+}
+.table4{
+    height:35px;
+    width:1000px;
+    margin-top: 10px;
+}
+.tr6{
+    height:40px;
+    background-color:rgb(238, 246, 255) ;
+    text-align: center;
+}
+.button1{
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin-right: .1em;
+    text-decoration: none !important;
+    cursor: pointer;
+    text-align: center;
+    zoom: 1;
+    overflow: visible;
+    background-image: url(img/p2.png);
+    background-color: rgb(215, 235, 249);
+    background-origin:padding-box;
+    background-position-x:50%;
+    background-position-y:50%;
+    border-bottom-color:rgb(174, 208, 234);
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-collapse:separate;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(174, 208, 234);
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:rgb(174, 208, 234);
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:rgb(174, 208, 234);
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-top-style:solid;
+    border-top-width:1px;
+    box-sizing:border-box;
+    color:rgb(0, 112, 163);
+    cursor:pointer;
+    display:inline-block;
+    font-family:"Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size:14px;
+    font-stretch:100%;
+    margin-left:0px;
+    margin-right:1.32px;
+    margin-top:0px;
+    overflow-x:visible;
+    overflow-y:visible;
+}
+.button2{
+    display: block;
+    line-height: 1.4;
+    border-collapse:separate;
+    cursor:pointer;
+    text-align:center;
+    line-height:30px;
+    width: 50px;
+    font-weight:bold ;
+}

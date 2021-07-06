@@ -1,0 +1,98 @@
+<!doctype html>
+<htmml>
+    <head>
+        <title>肖申克的救赎</title>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+	     <meta charset="UTF-8">
+         <div id="allcontent">
+           <header>
+                <p>肖申克的救赎</p>
+           </header>
+           <!--header部分是标题，一个独立的块元素，是介绍电影名称的页眉区-->
+           <nav>
+            <ul>
+                <li class="gap"><a href="">影视首页</a></li>
+                <li class="gap"><a href="剧情简介/剧情.html">剧情简介</a></li>
+                <li class="gap"><a href="人物简介/人物.html">人物简介</a></li>
+                <li class="gap"><a href="精彩剧图/精彩.html">精彩剧图</a></li>
+                <li class="gap"><a href="获奖记录/获奖.html">获奖记录</a></li>
+                <li class="gap"><a href="影迷注册/影迷.html">影迷注册</a></li>
+              </ul>
+           </nav>
+           <!--html5新元素nav部分，除首页外每一个无序列表项包含了一个相应的链接，每个链接对应一个基础页面（设计思路源自课程作业）-->
+           <div id="photo">
+               <img src="image/p1.jpg">
+           </div>
+           <!--定义一个div元素框图片，图片是该电影经典画面之一（设置div也是想到老师说过img放在div里）-->
+           <div id="story">
+               <p>坚定信念，通往自由之路</p>
+           </div>
+           <!--定义一个div元素，这是看电影后的心理感触，用以引出下面-->
+           <!--以下是表格布局（思路是课堂的starbuzz部分，以及ppt），表格包含了一行五列元素，分别是col1-col5，分别用来展示其他页面的部分内容-->
+           <div id="tablecontainer">
+               <div id="tablerow">
+                   <div id="col1">  <!--col1-col5都是相同的布局样式，只是col1多了margin-left。但出于div元素性质考虑，尚未将id用成class-->
+                     <img src="image/p2.png">
+                     <h3>剧情简介</h3>
+                     <p>影视主人公安迪，忍辱负重的花了近20年的时间挖通了监狱的铜墙铁壁。
+                         他内心从来没有忘记过对自由的渴望，在一切都不随己愿的时候，他选择了接受并尝试去改变现状。
+                         坚定内心，才是扼杀牢笼的利剑。</p>
+                   </div>
+                   <div id="col2">
+                    <img src="image/p3.png">
+                    <h3>人物简介</h3>
+                    <p>人物安迪，美国事业有成赫赫有名的青年银行家。由于被冤枉枪杀妻子与妻子的情人而被捕入狱。
+                        演绎了不动声色，步步为营地策划自我救赎并最终成功越狱，重获自由的故事。生动诠释了自我坚不可摧的钢铁意志。</p>
+                   </div>
+                   <div id="col3">
+                    <img src="image/p4.png">
+                    <h3>剧情简介</h3>
+                    <p>图为安迪越狱成功后的经典一幕，双手伸向天空，犹如向上天接过属于他自由的权力。同一个世界里电闪雷鸣，风雨交加。
+                        安迪抬头仰望着天空，沐浴着倾盆的雨水。在他看来，高兴的不是雨滴，而是内心的一种宣泄。</p>
+                   </div>
+                   <div id="col4">
+                    <img src="image/p5.png">
+                    <h3>精彩剧图</h3>
+                    <p>图为故事主人公安迪日复一日的挖凿着监狱的隧道，手持着坚硬的石器凿着监狱
+                        坚不可摧的厚墙，这是他追寻自由的道路，是他忍辱负重近20年最后的信念，他夜以继日的用意志打通了通向另一个世界的大门。</p>
+                   </div>
+                   <div id="col5">
+                    <img src="image/p6.png">
+                    <h3>获奖记录</h3>
+                    <p>1995 奥斯卡（美国电影学院奖）最佳摄影 罗杰·狄金斯 提名 1995 奥斯卡（美国电影学院奖） 最佳改编剧本 弗兰克·德拉邦特 
+                        提名 1995 奥斯卡 美国电影学院奖 最佳音响 Willie 提名 1995 奥斯卡（美国电影学院奖） 最佳音响.....</p>
+                   </div>
+               </div>
+           </div>
+           <div id="comment">
+               <p>影评，追求自由的脚步永不停歇......</p>
+           </div>
+           <!--comment部分是经典影评，同时铺垫下面学生的电影感触-->
+           <div id="meaning">  <!--div meaning部分包含了左边的meaning1和右边的meaning2部分-->
+            <div id="meaning1"> <!--meaning1也是设置框住图片的div元素-->
+                <img src="image/p7.png">
+            </div>
+            <div id="meaning2"> <!--meaning2部分是电影感触，在div里用了一个p元素叙述-->
+                <p>追求自由的脚步永不停歇，这个就是我对于整部影片的感知。人，只要存在于社会中，就不可避免地要遭遇到这个环境带来的影响。自然是有好有坏的，不过这些并不是我们要纠结的内容。真正应该去拿捏的，是无论怎样，你我都不会是之前的自己。
+                 我们被各种各样的条条框框束缚着，其实，存活的意义就在于寻求到真正的自由。当然，也是在有约束的条件下的自由。不管在任何时候，都不应该放弃自己对于自己先前的承诺。尽管会有许许多多的阻碍，有来自自己和他人的阻碍。但这些都不能成为我们退却的理由。
+                 希望是一定要有的，也一定得对自己的未来有一个好的想法。不单单是为了证明什么，只是告诉自己：“这一切的一切都是不可避免的蹉跎，我要做的，就是平静地度过这一段时光。”曾经的困难和苦闷都将会是自己最为靓丽的名片。</p>
+            </div>
+            <table>
+                <tr ><td colspan="5"><p>肖申克的救赎经典片段</p></td></tr>
+                <!--以上为表格首行，并且设置了跨列属性（学习课本35页得知）-->
+                <tr class="hang">
+                    <td class="lie"><img src="image/p8.png"></td>
+                    <td class="lie"><img src="image/p9.png"></td>
+                    <td class="lie"><img src="image/p10.png"></td>
+                    <td class="lie"><img src="image/p11.png"></td>
+					<td class="lie"><img src="image/p2.png"></td>
+                </tr>
+                <!--该行包括了五列，每一列分别是该电影的一个经典镜头。由于图片样式一样，故使用了class属性，其中lie是列的拼音-->
+            </table>
+            <!--尝试使用html5 table元素放img元素，代替之前只会古板的div做法-->
+         </div>
+    </body>
+</htmml>
+

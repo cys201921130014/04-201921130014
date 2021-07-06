@@ -1,0 +1,132 @@
+/*此网页设计思路与精彩剧图设计大同小异，主要在增添了演员名称和演员介绍，以及将人物描述进行右移，并且对演员身份和名字进行了新的样式设计，
+新的字体样式是临时性尝试所得，旨在增加页面的外观美观。另外，在每一个人物的div中设置了2px的下边框，增加间隔的多样性。最后，使用html5新元素
+aside绝对定位设置了两张图片的位置，增添页面的内容。*/
+#all{
+	width:100%;
+	height:820px;
+	background-color: cadetblue;
+}
+header{
+	height:90px;
+    width:100%;
+    border-bottom:solid 2px rgb(211, 204, 204);
+}
+h2{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 45px;
+	padding-top:30px;
+}
+#actor12{
+    height:200px;
+    width:1100px;
+}
+#actor1{
+      height:200px;
+      margin-top: 15px;
+      width:500px;
+      border-bottom: solid 1px rgb(211, 204, 204);
+      margin-left: 50px;
+      float:left;
+}
+.a{
+    height:180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:150px;
+    float:left;
+}
+.a img{
+    height:170px;
+    width:140px;
+}
+.b{
+    height:180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:350px;
+    float:right;
+}
+h4{
+    font-size: 15px;
+    color:rgb(19, 110, 194);
+    height:10px;
+    font-weight: bold;
+}
+.role{
+    font-size: 6px;
+    color:rgb(19, 110, 194);
+    height:5px;   
+    font-weight: bold;
+}
+.name{
+    font-size: 6px;
+    color:rgb(19, 110, 194);
+    height:5px;  
+}
+.c{
+   height:50px;
+   font-size: 13px;
+   font-style:italic;
+   letter-spacing:1px;
+}
+#actor2{
+    height:200px;
+    margin-top: 15px;
+    width:500px;
+    border-bottom: solid 1px rgb(211, 204, 204);
+    margin-left: 20px;
+    float:right;
+}
+#actor34{
+    height:200px;
+    width:1100px;
+}
+#actor3{
+      height:200px;
+      margin-top: 15px;
+      width:500px;
+      border-bottom: solid 1px rgb(211, 204, 204);
+      margin-left: 50px;
+      float:left;
+}
+#actor4{
+    height:200px;
+    margin-top: 15px;
+    width:500px;
+    border-bottom: solid 1px rgb(211, 204, 204);
+    margin-left: 20px;
+    float:right;
+}
+#actor56{
+    height:200px;
+    width:1100px;
+}
+#actor5{
+      height:200px;
+      margin-top: 15px;
+      width:500px;
+      border-bottom: solid 1px rgb(211, 204, 204);
+      margin-left: 50px;
+      float:left;
+}
+#actor6{
+    height:200px;
+    margin-top: 15px;
+    width:500px;
+    border-bottom: solid 1px rgb(211, 204, 204);
+    margin-left: 20px;
+    float:right;
+}
+aside{
+    float:right;
+    width:200px;
+    height:600px;
+    position:absolute;
+    left:1200px;
+    top:120px;
+}
+aside img{
+    width:200px;
+    height:320px;
+}

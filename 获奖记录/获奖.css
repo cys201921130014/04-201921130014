@@ -1,0 +1,85 @@
+/*这个网页由于是背景图片和表格组成，所以思路较简单。开始查阅资料把各种奖项列出来，进行表格形式设计，比如跨行，跨列等。
+由于表格设置背景颜色为white，起初显得过于呆板，后设置了首页的主体颜色为背景颜色后依然过于混杂。后面想到了老师课堂所讲的伪类-
+nth-child（odd）后，就进行了尝试，对比nth-child(even)后，前者更达到了自己满意的结果，于是就完成了这个网页的样式设计*/
+#all{
+    width:100%;
+    height:1270px;
+    background-color: cadetblue;/*div all包含所有内容，使用冻结布局*/
+}
+header{
+     height:250px;/*背景图片的样式设计*/
+     width:100%;
+     background-image: url(image/oscar.jpg);
+     background-repeat:repeat-x;
+}
+table{
+    border-collapse:collapse;/*表格的边框合并*/
+    box-sizing:border-box;
+    clear:both;
+    color:rgb(51, 51, 51);
+    display:table;
+    font-family:arial, sans-serif;
+    font-size:14px;
+    font-stretch:100%;
+    font-weight:400;
+    height:1000px;
+    line-height:18px;
+    width:100%;
+    background-color: white;
+}
+.tr1{
+    border-bottom-color:rgb(128, 128, 128);/*首行样式设计*/
+    border-collapse:collapse;
+    border-left-color:rgb(128, 128, 128);
+    border-right-color:rgb(128, 128, 128);
+    border-top-color:rgb(128, 128, 128);
+    color:rgb(51, 51, 51);
+    display:table-row;
+    font-family:arial, sans-serif;
+    font-size:14px;
+    height:30px;
+    width:780px;
+}
+.th1{
+    text-align: center;
+    width:90px;
+    height:30px;
+    border:solid 1px rgb(128, 128, 128);
+}
+.td1{
+    text-align: center;
+    width:178px;
+    height:30px;
+    border:solid 1px rgb(128, 128, 128);;
+}
+.th2{
+    text-align: center;
+    border:solid 1px rgb(128, 128, 128);
+}
+.td2{
+    text-align: center;
+    width:250px;
+    height:30px;
+    border:solid 1px rgb(128, 128, 128);
+}
+.td3{
+    text-align: center;
+    width:100px;
+    height:30px;
+    border:solid 1px rgb(128, 128, 128);
+}
+.td4{
+    border:solid 1px rgb(128, 128, 128);
+    width:178px;
+    height:30px;
+    text-align: center;
+}
+.td5{
+    width:90px;
+    height:30px;
+    text-align: center;
+    border:solid 1px rgb(128, 128, 128);
+}
+tr:nth-child(odd){
+    background-color:rgb(95,158,160);/*设置表格行背景颜色的伪类*/
+}
